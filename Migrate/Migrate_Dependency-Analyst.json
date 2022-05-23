@@ -1,0 +1,20 @@
+{
+    "properties": {
+        "roleName": "Azure Migrate Migration Dependency Analyst",
+        "description": "Azure Migrate Migration Dependency Analyst allows you to view and refresh the project, perform dependency analysis, and export dependency information.",
+        "assignableScopes": ["/providers/Microsoft.Management/managementGroups/029d99a9-c8c7-47a1-a748-444c449224f8"],
+        "permissions": [{
+            "actions": [
+                "Microsoft.OffAzure/VMwareSites/generateCoarseMap/action",
+                "Microsoft.OffAzure/VMwareSites/generateDetailedMap/action",
+                "Microsoft.Migrate/migrateprojects/RefreshSummary/action",
+                "Microsoft.Migrate/migrateprojects/read",
+                "Microsoft.Migrate/assessmentprojects/read",
+                "Microsoft.OffAzure/VMwareSites/read"
+            ],
+            "notActions": [],
+            "dataActions": [],
+            "notDataActions": []
+        }]
+    }
+}

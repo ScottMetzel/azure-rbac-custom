@@ -1,0 +1,28 @@
+{
+    "properties": {
+        "roleName": "Azure Migrate Migration Analyst",
+        "description": "Azure Migrate Migration Analyst allows you to download assessments, refresh the project, import and export discovery data, view and export software inventory information, perform dependency analysis, and eport dependency information.",
+        "assignableScopes": [],
+        "permissions": [{
+            "actions": [
+                "Microsoft.Migrate/assessmentprojects/groups/assessments/downloadurl/action",
+                "Microsoft.Migrate/migrateprojects/RefreshSummary/action",
+                "Microsoft.Migrate/projects/groups/assessments/downloadurl/action",
+                "Microsoft.OffAzure/ImportSites/importuri/action",
+                "Microsoft.OffAzure/ImportSites/exporturi/action",
+                "Microsoft.OffAzure/ServerSites/refresh/action",
+                "Microsoft.OffAzure/VMwareSites/exportapplications/action",
+                "Microsoft.OffAzure/VMwareSites/generateCoarseMap/action",
+                "Microsoft.OffAzure/VMwareSites/generateDetailedMap/action",
+                "Microsoft.OffAzure/VMwareSites/getApplications/action",
+                "Microsoft.OffAzure/VMwareSites/serverGroupMembers/action",
+                "Microsoft.OffAzure/VMwareSites/refresh/action",
+                "Microsoft.OffAzure/VMwareSites/clientGroupMembers/action",
+                "Microsoft.OffAzure/VMwareSites/exportDependencies/action"
+            ],
+            "notActions": [],
+            "dataActions": [],
+            "notDataActions": []
+        }]
+    }
+}
